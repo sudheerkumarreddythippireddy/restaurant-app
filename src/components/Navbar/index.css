@@ -1,0 +1,42 @@
+.nav-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-family: 'roboto';
+  border: 1px solid #d9d9d9;
+}
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.orders {
+  display: none;
+  font-size: 20px;
+}
+.count-container {
+  position: absolute;
+  top: -6px;
+  right: -5px;
+  background: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .orders {
+    display: block;
+  }
+  .count-container{
+    top: 7px;
+  }
+}
