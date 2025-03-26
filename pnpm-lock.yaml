@@ -3,6 +3,8 @@ dependencies:
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
+  node: 20.19.0
+  nodejs: 0.0.0
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.2.0_react@17.0.1
@@ -10142,6 +10144,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==
+  /node-bin-setup/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha512-opgw9iSCAzT2+6wJOETCpeRYAQxSopqQ2z+N6BXwIMsQQ7Zj5M8MaafQY8JMlolRR6R1UXg2WmhKp0p9lSOivg==
   /node-fetch/2.6.12:
     dependencies:
       whatwg-url: 5.0.0
@@ -10218,6 +10224,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==
+  /node/20.19.0:
+    dependencies:
+      node-bin-setup: 1.1.3
+    dev: false
+    engines:
+      npm: '>=5.0.0'
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-upEH46DT6+wF3J8Q7tnmB8Kh0m+xYcBdaIluOxjR9ZnM5lpabfZIBfXNYWUxOhxTQLu23J4MiNXkUOeFHPrqdA==
+  /nodejs/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-1V+0HwaB/dhxzidEFc4uJ3k52gLI4B6YBZgJIofjwYCSAkD6CI0me6TDBT2QM2nbGWNxCHcq9/wVynzQYZOhUg==
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.9
@@ -14754,6 +14774,8 @@ specifiers:
   husky: 4.3.8
   lint-staged: 10.5.4
   msw: 0.35.0
+  node: 20.19.0
+  nodejs: 0.0.0
   npm-run-all: 4.1.5
   prettier: 2.2.1
   react: 17.0.1
